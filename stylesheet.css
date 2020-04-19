@@ -81,19 +81,6 @@ ul{
   margin:20px 0;
   }
 
-.signup{
-  background-color:#239b76;
-  }
-
-.facebook {
-  background-color: #1877f2;
-  margin-right:10px;
-  }
-
-.twitter{
-  background-color:#55acee;
-  }
-
 .btn{
   padding:8px 24px;
   color:white;
@@ -103,13 +90,7 @@ ul{
   text-align:center;
   }
 
-.btn:hover{
-  opacity:1;
-  }
 
-.fa{
-  margin-right:5px;
-  }
 
 /*headerのみに適用*/
 header {
@@ -212,27 +193,6 @@ header {
    top:7px;
    box-shadow:none;
    }
-
-  footer p{
-    color:#b3aeb5;
-    font-size:12px;
-      }
-
-  footer{
-    padding-top:30px;
-    padding-bottom:20px;
-
-    }
-
-.footer-logo{
-  float:left;
-
-  }
-
- .footer-list{
-  float:right;
-
-  }
 
 .lesson{
   float:left;
