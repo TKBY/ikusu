@@ -2,35 +2,43 @@
 <html>
 <head>
   <meta name="robots" content="noindex">
- <meta charset="utf-8">
- <!--レスポンシブのためのviewport-->
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>保健体育</title>
-  <link rel="stylesheet" href="stylesheet.css">
- <!--レスポンシブデザインの記述-->
- <link rel="stylesheet" href="responsive.css">
- <!--font-awsome読み込み-->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/fontawesome/4.3.0/css/font-awsome.min.css">
+  <title>PDF埋め込む方法</title>
 </head>
 <body>
-  <section>
-    <h1>家でもやってみよう　体幹トレーニング<h1>
-    <div class ="iframe_wrap">
-      <iframe src="https://tkby.github.io/ikusu/2020kyugyouchutaikanundo.pdf&embedded=true" width="565" height="792" frameborder="0"></iframe>
-      </div>
-      </section>
-      <hr style="margin: 60px auto;">
-     
-      
-        <li><button type="button" onclick="location.href ='https://tkby.github.io/ikusu/index.html'">トップページに戻る</button></li>
-     
-      
+
+<section>
+  <h1>レスポンシブなPDF埋め込み</h1>
   
-      
+  <div class="iframe__wrap">
+    <iframe 
+    src="https://docs.google.com/viewer?url=https://helpx.adobe.com/jp/acrobat/kb/cq07071635/_jcr_content/main-pars/download-section/download-1/file.res/sample.pdf&embedded=true" width="565" height="792" frameborder="0"></iframe>
+  </div>
+</section>
+
   
+  <hr style="margin: 60px auto;">
  
-   
-                      
-</body>      
+  
+<section>
+  <h1>サムネイルっぽくPDF埋め込み</h1>
+  
+  <div class="thumbnail">
+    <div class="iframe__wrap">
+     <iframe 
+    src="https://docs.google.com/viewer?url=https://helpx.adobe.com/jp/acrobat/kb/cq07071635/_jcr_content/main-pars/download-section/download-1/file.res/sample.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+    </div>
+ </div>
+  
+</section>
+
+  
+</body>
 </html>
+
+
+
+
+Resources
